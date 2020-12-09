@@ -1,0 +1,242 @@
+@media (max-width: 1320px){
+    .header__inner{
+        justify-content: center;
+    }
+    .menu__list li{
+        padding: 0 25px;
+    }
+    .booking__form-row input, .booking__form-row select{
+        width: 100%;
+    }
+    .special__slider-img{
+        float: none;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .special__slider-content{
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1050px){
+    .menu__content-btn{
+        flex-direction: column;
+        span{
+            text-align: center;
+            & + span{
+                border-left: none;
+                border-top: 1px solid rgba(51,51,51,0.2)
+            }
+        }
+        span:first-child{
+            border-left: none;
+            border-top: 1px solid rgba(51,51,51,0.2)
+        }
+        span:last-child{
+            border-right: none;
+            border-bottom: 1px solid rgba(51,51,51,0.2)
+        }
+    }
+    .menu__item{
+        
+        flex-basis: calc(50% - 30px);
+        margin-left: 30px;
+    
+    }
+}
+
+@media (max-width: 1000px){
+    .header__inner{
+        justify-content: space-between;
+    }
+    .menu__list {
+        li{
+            padding: 0 20px;
+        }
+        
+        .menu__list-logo{
+            display: none;
+        }
+    }
+    .menu__list{
+        display: none;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 250px;
+        background-color: rgba(26, 26, 26, 1);
+        padding: 30px;
+        z-index: 1;
+        li{
+            display: block;
+            padding: 0;
+            & + li{
+                padding-top: 30px;
+            }
+        }
+    }
+    .header__menu-btn{
+        display: block;
+        padding-top: 15px;
+    }
+    .header__menu-logo{
+        display: block;
+    }
+    
+    .abuot__inner, .team__box{
+        flex-direction: column;
+    }
+    .abuot__content{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .abuot__img, .team__img{
+        width: 100%;
+    }
+    .team__content{
+        width: 100%;
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .header__box{
+        flex-direction: column;
+        
+    }
+    .header__box-schedule{
+        writing-mode: horizontal-tb;
+        margin-bottom: 30px;
+        transform: rotate(0deg);
+    }
+    .header__box-social{
+        display: inline-block;
+        margin-top: 30px;
+        
+        a + a{
+            margin-top: 0px;
+            margin-left: 30px;
+            
+        }
+        
+    }
+    
+    .header__scroll {
+        margin-right: 0px;
+        padding-top: 50px;
+    }
+    
+    .events__private{
+        flex-direction: column;
+    }
+    .events__private-corporate{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    .events__private-weddings, .events__private-corporate{
+        width: 100%;
+    }
+    .contact__form-contacts{
+        flex-direction: column;
+    }
+    .contact__form-contacts button{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 950px){
+
+    .booking__box{
+        flex-direction: column;
+    }
+    .booking__form{
+        margin-right: 0px;
+        
+        width: 100%;
+
+    }
+    .booking__img{
+        width: 100%;
+        order: -1;
+        margin-bottom: 30px;
+    }
+    
+}
+@media (max-width: 800px){
+    
+    .contact__form-row{
+        flex-direction: column;
+            input{
+            width: 100%;
+        }
+    } 
+    .contact__form-row input+input{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+    
+}
+@media (max-width: 750px){
+    .special__slider-img{
+        height: 300px;
+    }
+    .menu__item{
+        
+        flex-basis: calc(100% - 30px);
+        margin-left: 30px;
+    
+    }
+    .events__private-schedule{
+        line-height: 24px;
+    }
+}
+@media (max-width: 550px){
+    .header__content-link a{
+        display: block;
+         width: 100%;
+        & + a{
+            margin-top: 30px;
+            margin-left: 0;
+        }
+    }
+    .booking__schedule{
+        line-height: 20px;
+    }
+    .special__slider-name{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .special__slider-title{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .special__slider-text{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .contact__contacts-info{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact__form-contacts i {
+        padding-right: 20px;
+
+    }
+    .contact__form-contacts .fa-map-marker-alt {
+        padding-left: 20px;
+    }
+    .contact__phone{
+        padding: 20px 0px;
+    }
+}
+
+
+
+
+
+@media (min-width: 1001px){
+    .menu__list{
+        display: block !important;
+        display: flex !important;
+    }
+    
+}

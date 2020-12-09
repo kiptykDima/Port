@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORT</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <header id="header" class="header" style="background-image: url(images/bg-header.jpg);">
+                <div class="container">
+
+                <div class="header__wrapper">
+                    <div class="header__inner">
+                        <div class="header__menu-logo">
+                            <a href="#"><img src="images/logo.png" alt=""></a>
+                        </div>
+                        <div class="header__menu">
+                            <div class="header__menu-btn">
+                                <div class="header_menu-row"></div>
+                            </div>
+                            <nav id="nav" class="menu-nav">
+                                <ul class="menu__list">
+                                    <li><a class="nav-link" href="#header">ГЛАВНАЯ</a></li>
+                                    <li><a class="nav-link" href="#abuot">О НАС</a></li>
+                                    <li><a class="nav-link" href="#team">КОМАНДА</a></li>
+                                    <li><a class="nav-link" href="#booking">БРОНЬ</a></li>
+                                    <li class="menu__list-logo"><a class="nav-link" href="#"><img src="images/logo.png"
+                                                alt=""></a></li>
+                                    <li><a class="nav-link" href="#menu">МЕНЮ</a></li>
+                                    <li><a class="nav-link" href="#events">СОБЫТИЯ</a></li>
+                                    <li><a class="nav-link" href="#galerie">ГАЛЕРЕЯ</a></li>
+                                    <li><a class="nav-link" href="#contact">КОНТАКТЫ</a></li>
+                                </ul>
+                            </nav>
+
+                        </div>
+
+                    </div>
+                    <div class="header__box">
+                        <div class="header__box-schedule">Пн - Пт: 09:00 - 22:00, Сб - Вс: 11:00 - 3:00</div>
+                        <div class="header__box-content">
+                            <div class="header__content-text">РЕСТОРАН</div>
+                            <div class="header__content-title">PORT</div>
+                            <div class="header__content-link">
+                                <a class="content-link" href="#booking">БРОНЬ</a>
+                                <a class="content-link " href="">ИССЛЕДОВАТЬ</a>
+                            </div>
+                        </div>
+                        <div class="header__box-social">
+                            <a class="fab fa-facebook-f" href=""></a>
+                            <a class="fab fa-twitter" href=""></a>
+                            <a class="fab fa-instagram" href=""></a>
+                        </div>
+                    </div>
+                    <div class="header__scroll">
+                        <a class="fas fa-chevron-down" href="#abuot"></a>
+                    </div>
+                </div>
+
+                </div>
+            </header>
+
+            <section id="abuot" class="abuot">
+                <div class="container">
+                    <div class="abuot__inner">
+                        <div class="abuot__content">
+                            <div class="abuot__content-name global-name">
+                                О нас
+                            </div>
+                            <h2 class="abuot__content-title">
+                                «PORT» – это уютный гастрономический ресторан, расположенный у моря.
+                                Роскошный интерьер и приятная атмосфера. К Вашим услугам 3 зала ресторана –
+                                торжественный зал на 80 мест и два VIP-зала: семейный зал на 20 человек и приватный
+                                кабинет на 6 персон.
+                            </h2>
+                            <p class="abuot__content-text">
+                                Изысканная кухня и эксклюзивные авторские блюда от шеф-повара, постоянно обновляющееся
+                                меню! Необычайное разнообразие рыбного меню, специальное мясное меню – кабаний окорок с
+                                розмарином, перепелка фаршированная каштанами и фуа-гра, утиная грудка с апельсинами! Не
+                                оставит равнодушным гостей нежнейшее филе страуса премиум класса, обжаренное на гриле, с
+                                гарниром из карамелизированных яблок.
+                            </p>
+                        </div>
+                        <div class="abuot__img" style="background-image: url(images/about-1.jpg);">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="team" class="team" style="background-image: url(images/team-1.jpg);">
+                <div class="container">
+                    <div class="team__inner">
+                        <div class="global__title">НАША КОМАНДА</div>
+                        <div class="team__box">
+                            <div class="team__img" style="background-image: url(images/cheff-1.jpg);">
+                            </div>
+                            <div class="team__content">
+                                <div class="team__content-name global-name">
+                                    MASTER CHEF
+                                </div>
+                                <h2 class="team__content-title">
+                                    Работал личным поваром А.Р.Степаненка
+                                </h2>
+                                <p class="team__content-text">
+                                    Приготовление блюд европейской, украинской, русской, турецкой, балканской кухонь,
+                                    гриль-меню.
+                                    Авторские блюда.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="booking" class="booking">
+                <div class="container">
+                    <div class="booking__inner">
+                        <div class="booking__box">
+                            <div class="booking__form">
+                                <div class="booking__form-name global-name">ЗАКАЗАТЬ СТОЛ</div>
+                                <form action="https://formspree.io/f/mleolvwp" method="POST">
+                                    <div class="booking__form-row">
+                                        <input type="text" placeholder="Имя" required>
+                                        <input type="email" placeholder="Email">
+                                        <input type="Phone" placeholder="Телефон" required>
+                                        <select>
+                                            <option>Людей</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                            <option>6</option>
+                                            <option>7</option>
+                                            <option>8</option>
+                                            <option>9</option>
+                                            <option>10</option>
+                                        </select>
+                                        <input type="text" placeholder="Дата (мм / дд)" required>
+                                        <select>
+                                            <option>Время</option>
+                                            <option>09:00</option>
+                                            <option>10:00</option>
+                                            <option>11:00</option>
+                                            <option>12:00</option>
+                                            <option>13:00</option>
+                                            <option>14:00</option>
+                                            <option>15:00</option>
+                                            <option>16:00</option>
+                                            <option>17:00</option>
+                                            <option>18:00</option>
+                                            <option>19:00</option>
+                                            <option>20:00</option>
+                                            <option>21:00</option>
+                                            <option>22:00</option>
+                                            <option>23:00</option>
+                                            <option>00:00</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit">ЗАКАЗАТЬ СЕЙЧАС</button>
+                                </form>
+                            </div>
+                            <div class="booking__img" style="background-image: url(images/booking-1.jpg);">
+                            </div>
+                        </div>
+                        <div class="booking__schedule">Пн - Пт: <span>09.00 - 22.00,</span> Сб - Вс: <span>11.00 -
+                                03.00,</span> Телефон: <a href="tel:380966655434">+380966655434</a> / <a
+                                href="tel:380966999434">+380966999434</a> </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="special" style="background-image: url(images/special/special-bg.jpg);">
+                <div class="container">
+                    <div class="special__inner">
+                        <div class="global__title">СПЕЦИАЛЬНЫЕ</div>
+
+                        <div class="special__inner-slider">
+
+                            <div class="special__slider">
+                                <div class="special__slider-img"
+                                    style="background-image: url(images/special/special-1.jpg);">
+                                </div>
+                                <div class="special__slider-content">
+                                    <div class="special__slider-name global-name">
+                                        Флорентийская паста
+                                    </div>
+                                    <h2 class="special__slider-title">
+                                        Флорентийская паста с курицей и шампиньонами
+
+                                    </h2>
+                                    <p class="special__slider-text">
+                                        Флорентийская куриная паста в легком сливочном соусе займет не более 30 минут
+                                        вашего вечернего времени. В Европе флорентийскими называют блюда, в
+                                        приготовлении которых используют листья шпината. Думаю, вас порадует и способ
+                                        приготовления куриного филе для этой пасты.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="special__slider">
+                                <div class="special__slider-img"
+                                    style="background-image: url(images/special/special-2.jpg);">
+                                </div>
+                                <div class="special__slider-content">
+                                    <div class="special__slider-name global-name">
+                                        Лимонно-лаймовый имбирный хруст
+                                    </div>
+                                    <h2 class="special__slider-title">
+                                        Этот восхитительный хруст с лимоном и лаймом с имбирем легко приготовить всего
+                                        за несколько простых шагов.
+
+                                    </h2>
+                                    <p class="special__slider-text">
+                                        Цитрусовые контрасты между вкусами лимона и лайма восхитительны на фоне
+                                        хрустящей текстуры, которую обеспечивает имбирно-ореховое печенье.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="special__slider">
+                                <div class="special__slider-img"
+                                    style="background-image: url(images/special/special-3.jpg);">
+                                </div>
+                                <div class="special__slider-content">
+                                    <div class="special__slider-name global-name">
+                                        Французский луковый суп
+                                    </div>
+                                    <h2 class="special__slider-title">
+                                        Одна из основных сложностей при приготовлении лукового супа — нарезать весь лук,
+                                        причем не полукольцами, а перьями.
+
+                                    </h2>
+                                    <p class="special__slider-text">
+                                        лук в бульоне с сыром и гренками. Луковые супы очень популярны с древних времён.
+                                        Эти супы были известны и широко распространены в римскую эпоху правления. В силу
+                                        доступности и лёгкости выращивания лук — основной продукт для приготовления супа
+                                        — был основной пищей для многих бедных семей.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section id="menu" class="menu">
+                <div class="container">
+                    <div class="menu__inner">
+                        <div class="menu__inner-info">
+                            <div class="menu__inner-name global-name">ВКУСНОЕ МЕНЮ</div>
+                            <h2 class="menu__inner-text ">Мы предлагаем не просто еду, а лучшие банкетные блюда в
+                                авторском исполнении по самым демократичным ценам. Имеется большой ассортимент авторских
+                                банкетных блюд, с которыми вас любезно ознакомят в ресторане.</h2>
+                        </div>
+                        <div class="menu__content">
+                            <div class="menu__content-btn">
+                                <span class="tab active" data-id="1">СУП</span>
+                                <span class="tab" data-id="2">ПИЦЦА</span>
+                                <span class="tab" data-id="3">ПАСТА</span>
+                                <span class="tab" data-id="4">ДЕСЕРТ</span>
+                                <span class="tab" data-id="5">ВИНО</span>
+                                <span class="tab" data-id="6">ПИВО</span>
+                                <span class="tab" data-id="7">НАПИТКИ</span>
+                            </div>
+                            <div class="menu__content-box">
+
+                                <div class="menu__item-items active-tab" id="1">
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Французский луковый суп</div>
+                                            <div class="menu__item-price">55 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Суп, который стал национальным достоянием Франции</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Суп-пюре из брокколи</div>
+                                            <div class="menu__item-price">125 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Семгой и кунжутным гриссини</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Борщ</div>
+                                            <div class="menu__item-price">75 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Подается с салом, чесноком и ржаными гренками</div>
+                                    </div>
+                                </div>
+
+                                <div class="menu__item-items " id="2" style="display: none;">
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Пицца пепперони</div>
+                                            <div class="menu__item-price">150 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Суп, который стал национальным достоянием Франции</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Пицца суприм</div>
+                                            <div class="menu__item-price">150 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Семгой и кунжутным гриссини</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Пицца мясная</div>
+                                            <div class="menu__item-price">150 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Подается с салом, чесноком и ржаными гренками</div>
+                                    </div>
+                                </div>
+
+                                <div class="menu__item-items " id="3" style="display: none;">
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Паста</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Паста</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Паста</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Паста</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Паста</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Паста</div>
+                                    </div>
+                                </div>
+
+                                <div class="menu__item-items " id="4" style="display: none;">
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Десерт</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Десерт</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Десерт</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Десерт</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Десерт</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Десерт</div>
+                                    </div>
+                                </div>
+
+                                <div class="menu__item-items " id="5" style="display: none;">
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Вино</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Вино</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Вино</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Вино</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Вино</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Вино</div>
+                                    </div>
+                                </div>
+
+                                <div class="menu__item-items " id="6" style="display: none;">
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Пиво</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Пиво</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Пиво</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Пиво</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Пиво</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Пиво</div>
+                                    </div>
+                                </div>
+
+                                <div class="menu__item-items " id="7" style="display: none;">
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Напитки</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Напитки</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Напитки</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Напитки</div>
+                                    </div>
+                                    <div class="menu__item">
+                                        <div class="menu__item-content">
+                                            <div class="menu__item-name">Напитки</div>
+                                            <div class="menu__item-price">100 грн</div>
+                                        </div>
+                                        <div class="menu__item-text">Напитки</div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="events" class="events" style="background-image: url(images/events-bg.jpg);">
+                <div class="container">
+                    <div class="events__inner">
+                        <div class="global__title">
+                            ЧАСТНЫЕ СОБЫТИЯ
+                        </div>
+                        <div class="events__private">
+                            <div class="events__private-weddings" style="background-image: url(images/events-1.jpg);">
+                                <div class="events__weddings-title">
+                                    СВАДЬБЫ
+                                </div>
+                            </div>
+                            <div class="events__private-corporate" style="background-image: url(images/events-2.jpg);">
+                                <div class="events__corporate-title">
+                                    корпоративы
+                                </div>
+                            </div>
+                        </div>
+                        <div class="events__private-schedule">
+                            Для частных мероприятий звоните: <a href="tel:380966655434">+380966655434</a> / <a
+                                href="tel:380966999434">+380966999434</a> или используйте контактную форму.
+                    </div>
+                </div>
+            </section>
+
+            <section id="galerie" class="galerie">
+                <div class="container-fluid">
+                    <div class="galerie__inner">
+                        <div class="galerie__inner-slider">
+                            <div class="galerie__slider-item">
+                                <img src="images/galerie/galerie-1.jpg" alt="">
+                            </div>
+                            <div class="galerie__slider-item">
+                                <img src="images/galerie/galerie-2.jpg" alt="">
+                            </div>
+                            <div class="galerie__slider-item">
+                                <img src="images/galerie/galerie-3.jpg" alt="">
+                            </div>
+                            <div class="galerie__slider-item">
+                                <img src="images/galerie/galerie-4.jpg" alt="">
+                            </div>
+                            <div class="galerie__slider-item">
+                                <img src="images/galerie/galerie-5.jpg" alt="">
+                            </div>
+                            <div class="galerie__slider-item">
+                                <img src="images/galerie/galerie-6.jpg" alt="">
+                            </div>
+                            <div class="galerie__slider-item">
+                                <img src="images/galerie/galerie-7.jpg" alt="">
+                            </div>
+                            <div class="galerie__slider-item">
+                                <img src="images/galerie/galerie-8.jpg" alt="">
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <div class="container">
+                    <div class="contact__inner">
+                        <div class="contact__inner-info">
+                            <div class="global-name">
+                                Контакты
+                            </div>
+                            <h2 class="global_inner-text">
+                                СВЯЗАТЬСЯ С НАМИ
+                            </h2>
+                        </div>
+                        <div class="contact__inner-form">
+                            <form>
+                                <div class="contact__form-row">
+                                    <input type="text" placeholder="Имя" required>
+                                    <input type="email" placeholder="Email">
+                                    <input type="Phone" placeholder="Телефон" required>
+                                </div>
+                                <textarea placeholder="Сообщение"></textarea>
+                                <div class="contact__form-contacts">
+                                    <div class="contact__contacts-info">
+                                        <div class="contact__point"><i class="fas fa-map-marker-alt"></i>Одесса, Украина</div>
+                                        <a class="contact__phone" href="tel:380966999434"><i class="fas fa-phone"></i>+380966999434</a>
+                                        <div class="contact__email"><i
+                                                class="fas fa-envelope"></i>port@gmail.com</div>
+                                    </div>
+                                    <button type="submit">ЗАКАЗАТЬ СЕЙЧАС</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="footer__inner">
+                    <div class="footer__inner-mup"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10987.53610541172!2d30.7435746!3d46.4906088!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6318a0b864c43%3A0x129f8fe28cf2176c!2z0J7QtNC10YHRgdCwLCDQntC00LXRgdGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2NTAwMA!5e0!3m2!1sru!2sua!4v1607182112191!5m2!1sru!2sua"
+                            width="99999" height="475" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe></div>
+                    <div class="footer__inner-buttom">
+                        <p>© Copyright <span>Port</span> 2019</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/5a2118fbe4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
